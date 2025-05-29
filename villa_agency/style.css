@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background: url('banner-03.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+}
+
+.featured, .deals, .properties, .interior-gallery, .map {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured img, .deals img, .map img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.desc {
+  margin-top: 20px;
+}
+
+.gallery, .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img, .cards img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
